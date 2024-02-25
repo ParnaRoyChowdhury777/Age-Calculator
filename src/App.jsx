@@ -24,7 +24,7 @@ const App = () => {
     };
     return (
       <>
-      <div className='flex flex-col md:flex-row justify-end'>
+      <div className='flex flex-col md:flex-row justify-end bg-slate-50'>
         <div className='self-center w-full md:w-1/2'>
           <h1 className='text-5xl font-bold tracking-wider my-12 text-center text-slate-600'>Age Calculator</h1>
           <h3 className='text-2xl text-center text-stone-400'>Uncover the Secrets of Time: Calculate Your Age with Precision!</h3>
@@ -33,7 +33,7 @@ const App = () => {
         </div>
         <img src={Image} alt='calendar' className='w-full md:w-1/2' />
       </div>
-      <footer className='text-center text-stone-400 text-xl'>&copy; Made with &hearts; by PRC</footer>
+      <footer className='text-center text-stone-400 text-xl bg-slate-50'>&copy; Made with &hearts; by PRC</footer>
       </>
     )
 };
