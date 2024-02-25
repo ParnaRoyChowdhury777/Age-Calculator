@@ -33,7 +33,7 @@ export const AgeCalculatorForm = ({calculateAge}) => {
     <div>
     <form onSubmit={handleSubmit} className='flex-col'>
         <input type='date' className='block mx-auto my-10 p-3 border-2 border-gray-300 rounded-md cursor-text' value={date} onChange={e => setDate(e.target.value)} max={getCurrentDate()}/>
-        <button type="submit" className='block mx-auto p-2 bg-green-600 text-white rounded-md hover:bg-green-900 cursor-pointer' disabled = {!date}>Calculate Age</button>
+        <button type="submit" className='block mx-auto p-2 bg-purple-800 text-white rounded-md hover:bg-green-900 cursor-pointer' disabled = {!date}>Calculate Age</button>
     </form>
     </div>
   );
