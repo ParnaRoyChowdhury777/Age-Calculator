@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import { AgeCalculatorForm } from './components/AgeCalculatorForm'
 import AgeResult from './components/AgeResult';
-import { differenceInDays, differenceInMonths, differenceInYears } from 'date-fns';
 import Image from './assets/calendar.svg';
 
 
@@ -11,16 +10,13 @@ const App = () => {
     const [age, setAge] = useState(null);
 
     const calculateAge = (date) => {
-        const today = new Date();
         const birthDate = new Date(date);
-        const ageYears = differenceInYears(today, birthDate);
-        const ageMonths = differenceInMonths(today, birthDate);
-        const ageDays = differenceInDays(today, birthDate);
-        setAge({
-          years: ageYears,
-          months: ageMonths,
-          days: ageDays,
-        });
+        const age_in_diff_ms = Date.now() - birthDate.getTime();
+        const ageDate = new Date(age_in_diff_ms);
+        const years = ageDate.getUTCFullYear() - 1970;
+        const months = ageDate.getUTCMonth();
+        const days = ageDate.getUTCDate() - 1;
+        setAge({years, months, days});
     };
     return (
       <>
