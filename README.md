@@ -73,25 +73,6 @@ This will start the development server and you can view the application in your 
 3. **Error Handling:**
    - If a future date is selected, an error message will be displayed prompting you to select a valid date of birth.
 
-## Project Structure
-
-```plaintext
-age-calculator/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── AgeCalculator.jsx
-│   │   └── ...
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   └── ...
-├── tailwind.config.js
-├── package.json
-└── ...
-```
 
 ## Contributing
 
