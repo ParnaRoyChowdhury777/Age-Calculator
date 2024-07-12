@@ -57,7 +57,7 @@ This will start the development server and you can view the application in your 
 
 ## Screenshots
 
-![Age Calculator](./Images/age_calculator_ss.png)
+![Age Calculator](./age_calculator_ss.png)
 
 ## Deployment link
 
