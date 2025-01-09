@@ -13,8 +13,8 @@ Age Calculator is a simple yet powerful web application built using ReactJS and 
 
 ## Technologies Used
 
-- **ReactJS**: A JavaScript library for building user interfaces.
-- **TailwindCSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **React JS**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 
 ## Getting Started
 
