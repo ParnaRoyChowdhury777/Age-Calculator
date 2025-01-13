@@ -6,7 +6,7 @@ Age Calculator is a simple yet powerful web application built using ReactJS and 
 
 ## Features
 
-- **Accurate Age Calculation**: Calculates age in years, months, and days.
+- **Accurate Age Calculation**: Calculates age in years, months and days.
 - **Responsive Design**: Built with TailwindCSS for a clean and responsive user interface.
 - **Error Handling**: Ensures no future date can be selected as the date of birth.
 - **User-Friendly Interface**: Simple and intuitive interface for ease of use.
