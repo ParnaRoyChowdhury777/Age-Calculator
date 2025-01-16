@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Age Calculator is a simple yet powerful web application built using ReactJS and TailwindCSS. The primary function of this application is to calculate the age of a person based on their date of birth. It accurately calculates and displays the age in terms of years, months, and days. Additionally, the application includes robust error handling to ensure that users cannot select a future date as a date of birth.
+Age Calculator is a simple,  yet powerful web application built using ReactJS and TailwindCSS. The primary function of this application is to calculate the age of a person based on their date of birth. It accurately calculates and displays the age in terms of years, months, and days. Additionally, the application includes robust error handling to ensure that users cannot select a future date as a date of birth.
 
 ## Features
 
